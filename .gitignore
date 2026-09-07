@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+credentials.json
+token*.json
+*.sqlite3
+audit/
+.streamlit/secrets.toml
+.private/

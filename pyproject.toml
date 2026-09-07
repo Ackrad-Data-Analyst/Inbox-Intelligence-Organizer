@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inbox-intelligence-organizer"
+version = "1.0.0"
+description = "Local, review-first semantic email triage for Gmail, Outlook, Yahoo, and IMAP"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.41",
+  "pandas>=2.2",
+  "requests>=2.32",
+  "beautifulsoup4>=4.12",
+  "google-api-python-client>=2.160",
+  "google-auth>=2.38",
+  "google-auth-oauthlib>=1.2",
+  "msal>=1.31",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
