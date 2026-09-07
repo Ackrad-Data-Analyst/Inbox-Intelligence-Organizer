@@ -1,6 +1,6 @@
 # Inbox Intelligence Organizer
 
-**Built by Ackrad Shimwense**
+**Built by Ackrad Seth Chisale**
 
 Inbox Intelligence Organizer is a local, review-first application for classifying and bulk-organizing Gmail, Microsoft 365/Outlook, Yahoo and standards-compliant IMAP mailboxes. It reads the actual parsed message—not only the subject line—and turns a crowded inbox into a review table before any account change is allowed.
 
