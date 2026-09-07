@@ -130,7 +130,7 @@ src/inbox_organizer/
 - Gmail API with `gmail.modify`
 - Microsoft Graph with delegated `Mail.ReadWrite`
 - IMAP over SSL with UID MOVE/copy fallback
-- Local Ollama or an OpenAI-compatible endpoint for semantic classification
+- Local Ollama or a configurable remote semantic-model endpoint
 - MIME parsing, JSONL audit records and dry-run CSV generation
 - OAuth token storage under a Git-ignored `.private` directory
 - Cross-platform PowerShell and shell launchers
@@ -182,4 +182,3 @@ The current implementation passes **12 automated tests** covering message models
 ## Important operating limit
 
 Semantic classification is helpful, not infallible. The application is deliberately designed around human review, recoverable actions and small initial batches. Enterprise retention, legal hold and administrator policies still apply.
-
